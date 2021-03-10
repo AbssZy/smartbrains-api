@@ -14,7 +14,7 @@ const db = knex({
     client: 'pg',
     version: '13.0',
     connection: {
-        host : '127.0.0.1',
+        host : 'postgresql-contoured-65028',
         user : 'postgres',
         password : 'test',
         database : 'smartbrain'
